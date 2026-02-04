@@ -28,7 +28,7 @@ Parte interna da UC
 
 ## Módulos (conteúdo)
 ### Módulo Unidade Lógica e Aritmética
-##### Registrador AC (Acumulador) de 8 bits
+##### ** Registrador AC (Acumulador) de 8 bits
 ##### Multiplexador 2x8 especial (com lógica when... else)
 ##### Registrador de Flags de 2 bits
 ##### ULA
