@@ -35,23 +35,23 @@ Parte interna da UC
 >> ##### Somador de 8 bits (ADD)
 >> ##### Portas lógicas AND, OR e NOT (ambos são bitwise)
 
-### Módulo Memória
-##### Dois multiplexadores 2x8 (sendo um especial)
-##### Registrador de Endereço de Memória de 8 bits
-##### Memória Ram Assíncrona de 8 bits
-##### Registrador de Dados de Memória de 8 bits
+> ### Módulo Memória
+> ##### Dois multiplexadores 2x8 (sendo um especial)
+> ##### Registrador de Endereço de Memória de 8 bits
+> ##### Memória Ram Assíncrona de 8 bits
+> ##### Registrador de Dados de Memória de 8 bits
 
-### Módulo Program Counter
-##### Somador de 8 bits
-##### Multiplexador 2x8
-##### Registrador de Apontador de Programa de 8 bits
+> ### Módulo Program Counter
+> ##### Somador de 8 bits
+> ##### Multiplexador 2x8
+> ##### Registrador de Apontador de Programa de 8 bits
 
-### Módulo Unidade de Controle
-##### Registrador de Instrução de 8 bits
-##### Decodificador 8x11
-##### Unidade de Controle
-###### Contador de 3 bits
-###### Multiplexador 11x11 (especial)
+> ### Módulo Unidade de Controle
+> ##### Registrador de Instrução de 8 bits
+> ##### Decodificador 8x11
+> ##### Unidade de Controle
+>> ##### Contador de 3 bits
+>> ##### Multiplexador 11x11 (especial)
 
 ## Alunos
 - Caroline Saito
