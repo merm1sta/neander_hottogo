@@ -26,7 +26,7 @@ Este repositório contém todos os arquivos descritivos e arquivos de teste util
 |1111	   |HLT	       |Finaliza o ciclo|
 
 ## Módulos (conteúdo)
-### Módulo Unidade Lógica e Aritmética
+### * Módulo Unidade Lógica e Aritmética
 #### Registrador AC (Acumulador) de 8 bits
 #### Multiplexador 2x8 especial (com lógica when... else)
 #### Registrador de Flags de 2 bits
@@ -34,18 +34,18 @@ Este repositório contém todos os arquivos descritivos e arquivos de teste util
 ##### Somador de 8 bits (ADD)
 ##### Portas lógicas AND, OR e NOT (ambos são bitwise)
 
-### Módulo Memória
+### * Módulo Memória
 #### Dois multiplexadores 2x8 (sendo um especial)
 #### Registrador de Endereço de Memória de 8 bits
 #### Memória Ram Assíncrona de 8 bits
 #### Registrador de Dados de Memória de 8 bits
 
-### Módulo Program Counter
+### * Módulo Program Counter
 #### Somador de 8 bits
 #### Multiplexador 2x8
 #### Registrador de Apontador de Programa de 8 bits
 
-### Módulo Unidade de Controle
+### * Módulo Unidade de Controle
 #### Registrador de Instrução de 8 bits
 #### Decodificador 8x11
 #### Unidade de Controle
