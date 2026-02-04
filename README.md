@@ -27,13 +27,13 @@ Parte interna da UC
 |1111	   |HLT	       |Finaliza o ciclo|
 
 ## Módulos (conteúdo)
-### Módulo Unidade Lógica e Aritmética
-##### ** Registrador AC (Acumulador) de 8 bits
-##### Multiplexador 2x8 especial (com lógica when... else)
-##### Registrador de Flags de 2 bits
-##### ULA
-###### Somador de 8 bits (ADD)
-###### Portas lógicas AND, OR e NOT (ambos são bitwise)
+> ### Módulo Unidade Lógica e Aritmética
+> ##### Registrador AC (Acumulador) de 8 bits
+> ##### Multiplexador 2x8 especial (com lógica when... else)
+> ##### Registrador de Flags de 2 bits
+> ##### ULA
+>> ###### Somador de 8 bits (ADD)
+>> ###### Portas lógicas AND, OR e NOT (ambos são bitwise)
 
 ### Módulo Memória
 ##### Dois multiplexadores 2x8 (sendo um especial)
