@@ -1,0 +1,91 @@
+v 4
+file . "ffjk.vhdl" "1ac01e91ab5eed9920bf7c5c1b5bb3e36d8755f6" "20260206160514.960":
+  entity ffjk at 1( 0) + 0 on 5589;
+  architecture ff of ffjk at 13( 219) + 0 on 5590;
+file . "control.vhdl" "5f936c0df1c2cf2f6ac4501322ae76563b3eda48" "20260206160514.954":
+  entity control at 1( 0) + 0 on 5587;
+  architecture funcional of control at 11( 207) + 0 on 5588;
+file . "as_ram.vhdl" "e4beae64d54509014d4b58d3a4e84db1776b335f" "20260206160514.945":
+  entity as_ram at 2( 42) + 0 on 5583;
+  architecture behavior of as_ram at 16( 335) + 0 on 5584;
+file . "tb_as_ram.vhdl" "bfefe731229ad8ce9415f071d736bf321b0ab039" "20260206160515.021":
+  entity tb_as_ram at 1( 0) + 0 on 5615;
+  architecture tb_behavior of tb_as_ram at 9( 126) + 0 on 5616;
+file . "ffjk_d.vhdl" "418b8ac9a7ec1d7603bc20962129206fac7cff22" "20260206160514.964":
+  entity ffjkd at 1( 0) + 0 on 5591;
+  architecture ffd of ffjkd at 13( 218) + 0 on 5592;
+file . "modulo_mem.vhdl" "338b7bc29ae6864aa2297262efe881c4e208946e" "20260206160514.975":
+  entity modulo_mem at 1( 0) + 0 on 5595;
+  architecture dostoragestuff of modulo_mem at 17( 422) + 0 on 5596;
+file . "modulo_ula.vhdl" "2b279555a02da32b088be772bdf6d7a54558b582" "20260206160514.986":
+  entity modulo_ula at 2( 82) + 0 on 5599;
+  architecture comportamento of modulo_ula at 17( 481) + 0 on 5600;
+file . "neander.vhdl" "c02fc6ba3eeca80a566affb81adefee3a259941a" "20260206160514.992":
+  entity neander at 2( 52) + 0 on 5601;
+  architecture top of neander at 11( 193) + 0 on 5602;
+file . "reg1b.vhdl" "a07a8294249030cdc49af5f20e921c88e62e05ec" "20260206160515.001":
+  entity reg1b at 1( 0) + 0 on 5605;
+  architecture reg1bit of reg1b at 18( 246) + 0 on 5606;
+file . "reg2b.vhdl" "fb152bac6ba66f1e27442e65b6c434273b044586" "20260206160515.004":
+  entity reg2b at 1( 0) + 0 on 5607;
+  architecture reg of reg2b at 14( 281) + 0 on 5608;
+file . "reg8b.vhdl" "0e4f5d4b93124e2eb0942f5a0066d76f90f70d02" "20260206160515.009":
+  entity reg8b at 1( 0) + 0 on 5609;
+  architecture reg8bits of reg8b at 14( 264) + 0 on 5610;
+file . "somador1b.vhdl" "bfe688cd46b46d810f9859a9ce3b1aa4ab9da732" "20260206160515.013":
+  entity somador1b at 1( 0) + 0 on 5611;
+  architecture adicao of somador1b at 14( 254) + 0 on 5612;
+file . "somador8b.vhdl" "c6a5c40edcfd9068ec6581f512af5606bdf544d8" "20260206160515.016":
+  entity somador8b at 1( 0) + 0 on 5613;
+  architecture comportamento of somador8b at 14( 310) + 0 on 5614;
+file . "tb_mod_ulamem.vhdl" "788730166b12489b4b59d2590ecad8e9cbb88a0b" "20260206160515.025":
+  entity tb_mod_ulamem at 24( 1197) + 0 on 5617;
+  architecture quickmath of tb_mod_ulamem at 30( 1298) + 0 on 5618;
+file . "ula.vhdl" "fb7a9473ebcc3c468bde46b3c8d149ab4801540c" "20260206160515.029":
+  entity ula at 2( 71) + 0 on 5619;
+  architecture comportamento of ula at 14( 580) + 0 on 5620;
+file . "ADD.vhdl" "86a2f11217a722cf1e03344dc188fe0efbf91732" "20260206160514.864":
+  entity add at 2( 46) + 0 on 5563;
+  architecture soma of add at 12( 309) + 0 on 5564;
+file . "AND.vhdl" "0fb09e6f6d9b0f77bf334011b5b9a65fe0aa290c" "20260206160514.870":
+  entity inst_and at 2( 46) + 0 on 5565;
+  architecture e of inst_and at 12( 319) + 0 on 5566;
+file . "HLT.vhdl" "a83d8e849afde58ed151a5c6678e2488c4178bbd" "20260206160514.875":
+  entity hlt at 2( 53) + 0 on 5567;
+  architecture halt of hlt at 12( 316) + 0 on 5568;
+file . "JMP.vhdl" "8d047f147109c4a546b379c9fc495229a93c60ac" "20260206160514.880":
+  entity jmp at 2( 53) + 0 on 5569;
+  architecture jump of jmp at 12( 314) + 0 on 5570;
+file . "LDA.vhdl" "7d3843c3b9546a62fe79c34ff55029df0b8feb16" "20260206160514.884":
+  entity lda at 2( 65) + 0 on 5571;
+  architecture load of lda at 12( 327) + 0 on 5572;
+file . "NOP.vhdl" "3fb92ba002d0bbd08a4792f036f01647d6bd2f04" "20260206160514.889":
+  entity nop at 2( 61) + 0 on 5573;
+  architecture nooperation of nop at 12( 323) + 0 on 5574;
+file . "NOT.vhdl" "1d643e16d0baff726501cfb73782255f6a112150" "20260206160514.892":
+  entity inst_not at 2( 46) + 0 on 5575;
+  architecture neg of inst_not at 12( 319) + 0 on 5576;
+file . "NZ_FALSE.vhdl" "24e2ba6933b1ece95fd10fe50bab6cda4f85053d" "20260206160514.898":
+  entity nz_false at 2( 120) + 0 on 5577;
+  architecture sinal of nz_false at 12( 393) + 0 on 5578;
+file . "OR.vhdl" "9d00ac3bf03709410c8d37e4a7182464a7a979b8" "20260206160514.901":
+  entity inst_or at 2( 45) + 0 on 5579;
+  architecture ou of inst_or at 12( 316) + 0 on 5580;
+file . "STA.vhdl" "1f13af55345d7d1f5780402353b79728cf884865" "20260206160514.905":
+  entity sta at 2( 84) + 0 on 5581;
+  architecture store of sta at 12( 346) + 0 on 5582;
+file . "contador.vhdl" "f7a10b28eac54fb82f9213b0fea996a15acb21fa" "20260206160514.949":
+  entity modulocontador at 2( 80) + 0 on 5585;
+  architecture docountstuff of modulocontador at 13( 297) + 0 on 5586;
+file . "modulo_UC.vhdl" "b931c21c5dbd35595d5812b450d5d66303dc5bba" "20260206160514.970":
+  entity modulo_uc at 2( 52) + 0 on 5593;
+  architecture docontrolstuff of modulo_uc at 15( 379) + 0 on 5594;
+file . "modulo_uc_pc.vhdl" "47c47cdf8f6c80dd4f6730c926d39b15e548a811" "20260206160514.980":
+  entity modulo_uc_pc at 2( 95) + 0 on 5597;
+  architecture dopointstuff of modulo_uc_pc at 17( 741) + 0 on 5598;
+file . "neander_tb.vhdl" "22f5f4ceb980351678da64b28bf15ed199ba4ab7" "20260206160514.996":
+  entity tb_neander at 4( 193) + 0 on 5603;
+  architecture hottogo of tb_neander at 10( 288) + 0 on 5604;
+file . "ff_antigo.vhdl" "5eeff3c232a4d1ab0e116d2a0a4e51173a875ced" "20260204174101.651":
+  entity ffd at 1( 0) + 0 on 4833;
+  architecture ffdtype of ffd at 13( 214) + 0 on 4834;
